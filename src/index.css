@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind dark;
+
+html {
+  
+  
+}
+body {
+  padding:0;
+  margin:0;
+}
+#app {
+  margin-top:0;
+  
+  font-family: "Courier Prime", monospace;
+  font-size:15px;
+  line-height: 1.2;
+}
+#header {
+  height:50px;
+  width: 100vw;;
+}
