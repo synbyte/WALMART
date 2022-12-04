@@ -9,8 +9,8 @@ import Add from './components/Add.vue'
 <template>
 <div class="container mx-auto">
 <Header/>
-  <Add />
-  <img class="m-auto" alt="Vue logo" src="https://www.kindpng.com/picc/m/586-5866074_walmart-logo-white-png-walmart-logo-black-and.png" />
+  <Add hidden />
+  <img id="logo" class="m-auto" alt="" src="https://www.kindpng.com/picc/m/586-5866074_walmart-logo-white-png-walmart-logo-black-and.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
   </div>
 </template>
@@ -23,5 +23,9 @@ import Add from './components/Add.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#logo {
+  width:75%;
+  height:50px;
 }
 </style>
